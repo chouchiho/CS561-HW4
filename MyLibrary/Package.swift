@@ -29,5 +29,8 @@ let package = Package(
         .testTarget(
             name: "MyLibraryTests",
             dependencies: ["MyLibrary"]),
+        .testTarget(
+            name: "MyIntegrationTests",
+            dependencies: ["MyLibrary"]),
     ]
 )
